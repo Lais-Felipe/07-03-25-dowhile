@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- a linha abaixo inicia a tag e define o idioma para inglêns -->
+<html lang="en">
+<!-- A linha abaixo inicia a tag head (cabeçalho) -->
+<head>
+    <!-- A linha abaixo declara a tag meta com o atributo charset, que é a definição do tipo de caracterda página, ou seja caracteres estã definidos para UTF-8
+     (padrão internacional) -->
+    <meta charset="UTF-8">
+<!-- A linha abaixo declara a tag meta com os atributos: name(que define o tipo de visualização de tela) e 
+ content(que define o valor do tipo de visualizção, ou seja, a largura (width) será de acordo com a largura do dispositivo (decice), onde a escala inicial será de 1 (1 por 1) )  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- A linha abaixo define o título do dumento -->
+    <title>Do While</title>
+    <!-- A linha abaixo importa o arquivo estilos.css, que vai receber os estilos css da página -->
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <label for="cbxMarcarTempo" class="vermelho">Marcar Tempo?</label>
+    <!-- a linha abaixo cria o checkbox que vai servir para exibir ou não o tempo na página -->
+    <input type="checkbox" id="cbxMarcarTempo" /> 
+    <!-- A linha abaixo insere uma quebra de linha na páginha -->
+    <br />
+    <!-- A linha abaixo insere um elemneto pra podermos inserir a hora, sem prejudicar todo texto da página, sem prejudicar outros elementos da página -->
+    <div id="div_hora"></div>
+    <div id="div_minuto"></div> 
+    <div id="div_segundo"></div> 
+    <Script src="./dowhile.js"></Script>
+    <!-- A linha abaixo encerra a tag body (corpo da página) -->
+</body>
+<!-- A linha abaixo -->
+</html>
